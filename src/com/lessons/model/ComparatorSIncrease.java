@@ -1,4 +1,6 @@
-package com.lessons;
+package com.lessons.model;
+
+import com.lessons.model.entity.Shape;
 
 import java.util.Comparator;
 

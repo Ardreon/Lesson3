@@ -1,4 +1,4 @@
-package com.lessons;
+package com.lessons.model.entity;
 
 public class Triangle extends Shape {
     public double s1;
@@ -29,10 +29,6 @@ public class Triangle extends Shape {
                 ", s3 = " + s3;
     }
 
-    @Override
-    public void draw() {
-        System.out.printf("%s; area = %.2f\n", this, calcArea());
-    }
 
     //Этот метод не вызывается
     public String errorMethod(){

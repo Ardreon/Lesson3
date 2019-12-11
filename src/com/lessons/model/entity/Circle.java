@@ -1,4 +1,4 @@
-package com.lessons;
+package com.lessons.model.entity;
 
 public class Circle extends Shape {
     private double radius;
@@ -19,10 +19,7 @@ public class Circle extends Shape {
         return super.toString() + ", radius = " + radius;
     }
 
-    @Override
-    public void draw() {
-        System.out.printf("%s; area = %.2f\n", this, calcArea());
-    }
+
 
     //Этот метод не вызывается
     public String errorMethod(){

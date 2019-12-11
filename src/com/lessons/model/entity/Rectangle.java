@@ -1,6 +1,6 @@
-package com.lessons;
+package com.lessons.model.entity;
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
      private static double w;
      private static double h;
      public double r;
@@ -23,23 +23,8 @@ public class Rectangle extends Shape{
         return w * h;
     }
 
-/* This is some shit
-    public double calcRect(){
-        r = r +(w * h);
-        return r;
-    }
 
-    public double getR() {
-        return r;
-    }
-*/
 
-    //%f 2 знака после точки
-    //%s stroka
-    @Override
-    public void draw() {
-        System.out.printf("%s; area = %.2f\n", this, calcArea());
-    }
 
     //Этот метод не вызывается
     public String errorMethod(){
