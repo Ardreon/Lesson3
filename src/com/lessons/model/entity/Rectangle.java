@@ -24,10 +24,4 @@ public class Rectangle extends Shape {
     }
 
 
-
-
-    //Этот метод не вызывается
-    public String errorMethod(){
-        return "No errors";
-    }
 }

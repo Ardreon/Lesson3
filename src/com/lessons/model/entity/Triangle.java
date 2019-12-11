@@ -29,10 +29,4 @@ public class Triangle extends Shape {
                 ", s3 = " + s3;
     }
 
-
-    //Этот метод не вызывается
-    public String errorMethod(){
-        return "Error! Wrong distances";
-    }
-
 }
