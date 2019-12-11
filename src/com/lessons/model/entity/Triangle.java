@@ -14,11 +14,8 @@ public class Triangle extends Shape {
 
     @Override
     public double calcArea() {
-        if(((s1 + s2) > s3) || ((s2 + s3) > s1) || ((s1 + s3) > s2) ) {
-            double p = (s1 + s2 + s3)/2;
-            return Math.sqrt(p*(p - s1)*(p - s2)*(p - s3));
-        } else
-        return 0;
+            double p = (s1 + s2 + s3) / 2;
+            return Math.sqrt(p * (p - s1) * (p - s2) * (p - s3));
     }
 
     @Override
